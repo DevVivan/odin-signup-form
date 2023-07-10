@@ -42,6 +42,11 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+    font-family: Norse-Bold;
+    src: url(assets/Norse-Bold.otf);
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -58,17 +63,54 @@ table {
 }
 
 .image-container {
-    height: 85vh;
-    width: 60vh;
+    height: 85vh; 
+    width: 60vh; 
     /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
 }
 
 .form-container {
     height: 85vh;
-    width: 115vh;
+    width: 105vh;
     /* border: 1px solid black; */
 }
 
 #bg-img {
     border-radius: 15px 0 0 15px;
+    z-index: 1;
+}
+
+.banner {
+    width: 60vh;
+    height: 15vh;
+    /* border: 2px solid red; */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#banner-image {
+    width: 16%;
+    height: 80%;
+    z-index: 3;
+}
+
+#banner-heading {
+    font-family: Norse-Bold;
+    color: white;
+    font-size: 4rem;
+    z-index: 3;
+}
+
+#image-credit {
+    color: black;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
 }
