@@ -182,3 +182,33 @@ a.credit {
     margin-left: 5vh;
     padding-top: 2vh;
 }
+
+form {
+    margin-left: 5vh;
+    margin-top: 20px;
+    display: flex;
+    gap: 10vh;
+}
+
+.form-control-element {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+input {
+    width: 30vh;
+    font-family: 'Roboto', sans-serif;
+    height: 3vh;
+}
