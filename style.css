@@ -51,6 +51,8 @@ table {
     src: url(assets/Norse-Bold.woff);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
     --clr-light: white;
     --clr-accent: #09213c;
@@ -127,6 +129,7 @@ table {
     align-self: center;
     margin-bottom: 5px;
     opacity: 0.95;
+    font-family: 'Roboto', sans-serif;
 }
 
 a.credit {
@@ -141,6 +144,9 @@ a.credit {
 
 #section-1 {
     border-radius: 0px 15px 0px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #section-2 {
@@ -156,11 +162,13 @@ a.credit {
 
 .introduction-text {
     color: var(--clr-dark);
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    margin-left: 5vh;
 }
 
 .introduction-text-container {
-    width: 35rem;
+    width: 69vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .italics {
