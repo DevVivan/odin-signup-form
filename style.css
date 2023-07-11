@@ -211,6 +211,14 @@ input {
     width: 30vh;
     font-family: 'Roboto', sans-serif;
     height: 3vh;
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+}
+
+input:focus {
+    border: 1px solid var(--clr-accent);
+    box-shadow: 0 2px 3px -2px black; 
+    outline: none;
 }
 
 .create-account-button {
@@ -241,4 +249,8 @@ input {
     color: var(--clr-accent);
     text-decoration: none;
     font-weight: 600;
+}
+
+.required-style {
+    color: var(--clr-accent);
 }
