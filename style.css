@@ -1,3 +1,5 @@
+/* CSS Reset */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,10 +44,21 @@ table {
 	border-spacing: 0;
 }
 
+/* Custom Properties and Fonts  */
+
 @font-face {
     font-family: Norse-Bold;
     src: url(assets/Norse-Bold.woff);
 }
+
+:root {
+    --clr-light: white;
+    --clr-accent: #09213c;
+    --clr-dark: #090a0c;
+    --clr-subtle: rgba(0, 0, 0, 0.5);
+}
+
+/* Main Styling */
 
 .container {
     display: flex;
@@ -68,6 +81,7 @@ table {
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .form-container {
@@ -85,7 +99,7 @@ table {
     width: 60vh;
     height: 15vh;
     /* border: 2px solid red; */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--clr-subtle);
     position: absolute;
     z-index: 2;
     margin-top: 100px;
@@ -103,14 +117,21 @@ table {
 
 #banner-heading {
     font-family: Norse-Bold;
-    color: white;
+    color: var(--clr-light);
     font-size: 4rem;
     z-index: 3;
 }
 
 #image-credit {
-    color: black;
-    position: absolute;
+    color: var(--clr-light);
     z-index: 3;
-    text-align: center;
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    margin-bottom: 5px;
+    opacity: 0.95;
+}
+
+a.credit {
+    color: var(--clr-light);
 }
