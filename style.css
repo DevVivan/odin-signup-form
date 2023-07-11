@@ -118,7 +118,7 @@ table {
 #banner-heading {
     font-family: Norse-Bold;
     color: var(--clr-light);
-    font-size: 4rem;
+    font-size: 3.5rem;
     z-index: 3;
 }
 
@@ -136,12 +136,6 @@ a.credit {
     color: var(--clr-light);
 }
 
-#section-2 {
-    width: 105vh;
-    height: 35vh;
-    box-shadow: 0px 3px 15px 0px var(--clr-subtle); 
-}
-
 .form-text-sections {
     width: 105vh;
     height: 25vh;
@@ -150,6 +144,13 @@ a.credit {
 
 #section-1 {
     border-radius: 0px 15px 0px 0;
+}
+
+#section-2 {
+    width: 105vh;
+    height: 35vh;
+    box-shadow: 0 3px 5px -2px var(--clr-subtle); 
+    position: relative;
 }
 
 #section-3 {
