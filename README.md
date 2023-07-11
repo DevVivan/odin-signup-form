@@ -25,3 +25,6 @@ Well, this was a fun one. This was the `sign-up form`, the [*6th project*](https
 - Flexbox knowledge recap
 
 ## Images
+
+<img src="images/screenshot-1.png">
+<img src="images/screenshot-2.png">
