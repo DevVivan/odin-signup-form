@@ -55,7 +55,7 @@ table {
 
 :root {
     --clr-light: white;
-    --clr-accent: #09213c;
+    --clr-accent: #90606d;
     --clr-dark: #090a0c;
     --clr-subtle: rgba(0, 0, 0, 0.5);
 }
@@ -211,4 +211,34 @@ input {
     width: 30vh;
     font-family: 'Roboto', sans-serif;
     height: 3vh;
+}
+
+.create-account-button {
+    margin-left: 5vh;
+    margin-top: 3vh;
+    padding: 10px 50px;
+    background-color: var(--clr-light);
+    border: 1.5px solid var(--clr-accent);
+    border-radius: 5px;
+    color: var(--clr-accent);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.create-account-button:hover {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+.login-prompt {
+    margin-left: 5vh;
+    margin-top: 2vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.login-link {
+    color: var(--clr-accent);
+    text-decoration: none;
+    font-weight: 600;
 }
