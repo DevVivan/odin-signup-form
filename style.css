@@ -174,3 +174,11 @@ a.credit {
 .italics {
     font-style: italic;
 }
+
+.form-beginning-text {
+    font-size: 1.3rem;
+    color: var(--clr-dark);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5vh;
+    padding-top: 2vh;
+}
