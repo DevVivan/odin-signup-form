@@ -71,7 +71,7 @@ table {
     height: 85vh;
     width: 165vh;
     border-radius: 15px;
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 3px 15px 0px var(--clr-subtle); 
     display: flex;
 }
 
@@ -134,4 +134,18 @@ table {
 
 a.credit {
     color: var(--clr-light);
+}
+
+#section-2 {
+    width: 105vh;
+    height: 35vh;
+    box-shadow: 0px 1px 5px var(--clr-subtle);
+}
+
+.form-text {
+    border: 0.5px solid black;
+    width: 105vh;
+    height: 25vh;
+    background-color: var(--clr-subtle);
+    opacity: 0.075;
 }
