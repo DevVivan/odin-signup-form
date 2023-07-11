@@ -78,7 +78,6 @@ table {
 .image-container {
     height: 85vh; 
     width: 60vh; 
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -87,7 +86,6 @@ table {
 .form-container {
     height: 85vh;
     width: 105vh;
-    /* border: 1px solid black; */
 }
 
 #bg-img {
@@ -98,7 +96,6 @@ table {
 .banner {
     width: 60vh;
     height: 15vh;
-    /* border: 2px solid red; */
     background-color: var(--clr-subtle);
     position: absolute;
     z-index: 2;
@@ -157,6 +154,15 @@ a.credit {
     border-radius: 0px 0px 15px 0;
 }
 
-#introduction-text {
+.introduction-text {
     color: var(--clr-dark);
+    font-size: 1.25rem;
+}
+
+.introduction-text-container {
+    width: 35rem;
+}
+
+.italics {
+    font-style: italic;
 }
